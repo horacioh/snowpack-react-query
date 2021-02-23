@@ -1,0 +1,26 @@
+{
+  "name": "snowpack-react-query",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Horacio Herrera",
+  "license": "MIT",
+  "dependencies": {
+    "@snowpack/plugin-typescript": "^1.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-query": "^3.12.0",
+    "snowpack": "^3.0.13"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-react-refresh": "^2.4.0"
+  }
+}
